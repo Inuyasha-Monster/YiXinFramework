@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiXin.EasyNetQ", "YiXin.Eas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiXin.TopShelf", "YiXin.TopShelf\YiXin.TopShelf.csproj", "{A286ED95-4D9A-42E4-A950-42A247BBA27C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiXin.EntityFrameworkCore", "YiXin.EntityFrameworkCore\YiXin.EntityFrameworkCore.csproj", "{0D381888-4F2D-4A8C-AB85-F4EE58BF7218}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiXin.AspnetCore", "YiXin.AspnetCore\YiXin.AspnetCore.csproj", "{E259B4DA-51BA-412F-8D15-6CF46BA35E24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{A286ED95-4D9A-42E4-A950-42A247BBA27C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A286ED95-4D9A-42E4-A950-42A247BBA27C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A286ED95-4D9A-42E4-A950-42A247BBA27C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D381888-4F2D-4A8C-AB85-F4EE58BF7218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D381888-4F2D-4A8C-AB85-F4EE58BF7218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D381888-4F2D-4A8C-AB85-F4EE58BF7218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D381888-4F2D-4A8C-AB85-F4EE58BF7218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E259B4DA-51BA-412F-8D15-6CF46BA35E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E259B4DA-51BA-412F-8D15-6CF46BA35E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E259B4DA-51BA-412F-8D15-6CF46BA35E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E259B4DA-51BA-412F-8D15-6CF46BA35E24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
