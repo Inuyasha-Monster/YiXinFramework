@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiXin.EntityFrameworkCore",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiXin.AspnetCore", "YiXin.AspnetCore\YiXin.AspnetCore.csproj", "{E259B4DA-51BA-412F-8D15-6CF46BA35E24}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8CEDE93D-0FAB-4BC8-8CFF-00FD6A36A397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTest", "XUnitTest\XUnitTest.csproj", "{42958F96-F126-4C32-9729-915A98B3E76A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,9 +79,16 @@ Global
 		{E259B4DA-51BA-412F-8D15-6CF46BA35E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E259B4DA-51BA-412F-8D15-6CF46BA35E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E259B4DA-51BA-412F-8D15-6CF46BA35E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42958F96-F126-4C32-9729-915A98B3E76A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42958F96-F126-4C32-9729-915A98B3E76A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42958F96-F126-4C32-9729-915A98B3E76A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42958F96-F126-4C32-9729-915A98B3E76A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42958F96-F126-4C32-9729-915A98B3E76A} = {8CEDE93D-0FAB-4BC8-8CFF-00FD6A36A397}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {601228AC-0329-41E9-8140-33C06960B6FB}
