@@ -5,9 +5,9 @@ namespace YiXin.AspectCore
 {
     public class BaseInterceptorAttribute : AbstractInterceptorAttribute
     {
-        public override Task Invoke(AspectContext context, AspectDelegate next)
+        public override async Task Invoke(AspectContext context, AspectDelegate next)
         {
-            return context.Invoke(next);
+            await context.Invoke(next);
         }
     }
 }

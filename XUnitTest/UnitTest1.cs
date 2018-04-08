@@ -1,4 +1,5 @@
 using System;
+using AspectCore.DynamicProxy;
 using Xunit;
 
 namespace XUnitTest
