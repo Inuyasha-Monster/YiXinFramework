@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiXin.Core", "YiXin.Core\YiXin.Core.csproj", "{68D56095-367D-4AD8-828E-EFEBA70FA77A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiXin.Quartz", "YiXin.Quartz\YiXin.Quartz.csproj", "{E80E76AB-F73E-48C4-9F0D-AFCB6B81E63E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiXin.Hangfire", "YiXin.Hangfire\YiXin.Hangfire.csproj", "{03928A4F-6981-4148-93B9-BA38F545BB1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{68D56095-367D-4AD8-828E-EFEBA70FA77A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68D56095-367D-4AD8-828E-EFEBA70FA77A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68D56095-367D-4AD8-828E-EFEBA70FA77A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E80E76AB-F73E-48C4-9F0D-AFCB6B81E63E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E80E76AB-F73E-48C4-9F0D-AFCB6B81E63E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E80E76AB-F73E-48C4-9F0D-AFCB6B81E63E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E80E76AB-F73E-48C4-9F0D-AFCB6B81E63E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03928A4F-6981-4148-93B9-BA38F545BB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03928A4F-6981-4148-93B9-BA38F545BB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03928A4F-6981-4148-93B9-BA38F545BB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03928A4F-6981-4148-93B9-BA38F545BB1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
