@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\YiXin.AspectCore\YiXin.AspectCore.csproj" />
+    <ProjectReference Include="..\YiXin.Castle\YiXin.Castle.csproj" />
   </ItemGroup>
 
 </Project>
