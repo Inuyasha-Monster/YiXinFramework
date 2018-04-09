@@ -8,4 +8,8 @@
     <PackageReference Include="Quartz" Version="3.0.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\YiXin.Core\YiXin.Core.csproj" />
+  </ItemGroup>
+
 </Project>
