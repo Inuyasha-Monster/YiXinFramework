@@ -1,6 +1,7 @@
 using System;
 using AspectCore.DynamicProxy;
 using Xunit;
+using YiXin.AspectCore;
 using YiXin.Castle;
 
 namespace XUnitTest
@@ -8,11 +9,9 @@ namespace XUnitTest
     public class UnitTest1
     {
         [Fact]
-        public void Test1()
+        public void Test_CastleDynamicProxy()
         {
-            var proxyGenerator = new Castle.DynamicProxy.ProxyGenerator();
-            var test = proxyGenerator.CreateClassProxy<Test>(new ConsoleInterceptor());
-            test.Call();
+
         }
     }
 
