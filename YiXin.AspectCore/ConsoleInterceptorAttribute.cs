@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Threading.Tasks;
 using AspectCore.DynamicProxy;
 
@@ -8,9 +9,9 @@ namespace YiXin.AspectCore
     {
         public override async Task Invoke(AspectContext context, AspectDelegate next)
         {
-            Console.WriteLine("method call before");
+            Debug.WriteLine("method call before");
             await next(context);
-            Console.WriteLine("method call after");
+            Debug.WriteLine("method call after");
         }
     }
 }
