@@ -8,4 +8,8 @@
     <PackageReference Include="Castle.Core" Version="4.2.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\YiXin.Core\YiXin.Core.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -6,12 +6,14 @@ using YiXin.Castle;
 
 namespace XUnitTest
 {
-    public class UnitTest1
+    public class UnitTestDjlnet
     {
         [Fact]
         public void Test_CastleDynamicProxy()
         {
-
+            var proxy = new Castle.DynamicProxy.ProxyGenerator();
+            var call = proxy.CreateClassProxy<Test>(new ConsoleInterceptor());
+            call.Call();
         }
     }
 
