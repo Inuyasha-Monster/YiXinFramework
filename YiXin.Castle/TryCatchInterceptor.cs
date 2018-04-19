@@ -1,16 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using Castle.Core.Logging;
 using Castle.DynamicProxy;
-using YiXin.Core.Interfaces;
+using Microsoft.Extensions.Logging;
 
 namespace YiXin.Castle
 {
     public class TryCatchInterceptor : BaseInterceptor
     {
-        private readonly ILog _log;
+        private readonly ILogger<TryCatchInterceptor> _log;
 
-        public TryCatchInterceptor(ILog log)
+        public TryCatchInterceptor(ILogger<TryCatchInterceptor> log)
         {
             this._log = log;
         }
@@ -23,7 +22,7 @@ namespace YiXin.Castle
             }
             catch (Exception ex)
             {
-                _log.Error("出现未捕获的异常", ex);
+                _log.LogError(ex, $"{invocation.Method.Name} 执行出现未知异常");
             }
         }
     }
