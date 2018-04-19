@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Description>集成quartz.net方便与asp.net core 2.x开发使用</Description>
+    <Description>集成quartz.net方便与asp.net core 2.x开发使用,采用.net standrad2.0方式</Description>
   </PropertyGroup>
 
   <ItemGroup>
