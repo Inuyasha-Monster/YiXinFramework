@@ -3,31 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiXin.Core", "YiXin.Core\YiXin.Core.csproj", "{68D56095-367D-4AD8-828E-EFEBA70FA77A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YiXin.Core", "YiXin.Core\YiXin.Core.csproj", "{68D56095-367D-4AD8-828E-EFEBA70FA77A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiXin.Quartz", "YiXin.Quartz\YiXin.Quartz.csproj", "{E80E76AB-F73E-48C4-9F0D-AFCB6B81E63E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YiXin.Quartz", "YiXin.Quartz\YiXin.Quartz.csproj", "{E80E76AB-F73E-48C4-9F0D-AFCB6B81E63E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiXin.Hangfire", "YiXin.Hangfire\YiXin.Hangfire.csproj", "{03928A4F-6981-4148-93B9-BA38F545BB1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YiXin.Hangfire", "YiXin.Hangfire\YiXin.Hangfire.csproj", "{03928A4F-6981-4148-93B9-BA38F545BB1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiXin.AspectCore", "YiXin.AspectCore\YiXin.AspectCore.csproj", "{A1E4F6D2-21FB-4332-B95D-7A87AEB95118}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YiXin.AspectCore", "YiXin.AspectCore\YiXin.AspectCore.csproj", "{A1E4F6D2-21FB-4332-B95D-7A87AEB95118}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiXin.Autofac", "YiXin.Autofac\YiXin.Autofac.csproj", "{64D4103A-C9F6-4A87-B8EA-F6B8A372893E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YiXin.Autofac", "YiXin.Autofac\YiXin.Autofac.csproj", "{64D4103A-C9F6-4A87-B8EA-F6B8A372893E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiXin.Log4Net", "YiXin.Log4Net\YiXin.Log4Net.csproj", "{765769A5-78B4-4258-9221-3B85FDBF1844}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YiXin.Log4Net", "YiXin.Log4Net\YiXin.Log4Net.csproj", "{765769A5-78B4-4258-9221-3B85FDBF1844}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiXin.Castle", "YiXin.Castle\YiXin.Castle.csproj", "{60B65C33-5503-44AE-A6EC-51474E146A27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YiXin.Castle", "YiXin.Castle\YiXin.Castle.csproj", "{60B65C33-5503-44AE-A6EC-51474E146A27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiXin.EasyNetQ", "YiXin.EasyNetQ\YiXin.EasyNetQ.csproj", "{DB7B49C4-B46B-4A1C-9F64-A1DC7486F92F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YiXin.EasyNetQ", "YiXin.EasyNetQ\YiXin.EasyNetQ.csproj", "{DB7B49C4-B46B-4A1C-9F64-A1DC7486F92F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiXin.TopShelf", "YiXin.TopShelf\YiXin.TopShelf.csproj", "{A286ED95-4D9A-42E4-A950-42A247BBA27C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YiXin.TopShelf", "YiXin.TopShelf\YiXin.TopShelf.csproj", "{A286ED95-4D9A-42E4-A950-42A247BBA27C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiXin.EntityFrameworkCore", "YiXin.EntityFrameworkCore\YiXin.EntityFrameworkCore.csproj", "{0D381888-4F2D-4A8C-AB85-F4EE58BF7218}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YiXin.EntityFrameworkCore", "YiXin.EntityFrameworkCore\YiXin.EntityFrameworkCore.csproj", "{0D381888-4F2D-4A8C-AB85-F4EE58BF7218}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiXin.AspnetCore", "YiXin.AspnetCore\YiXin.AspnetCore.csproj", "{E259B4DA-51BA-412F-8D15-6CF46BA35E24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YiXin.AspnetCore", "YiXin.AspnetCore\YiXin.AspnetCore.csproj", "{E259B4DA-51BA-412F-8D15-6CF46BA35E24}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8CEDE93D-0FAB-4BC8-8CFF-00FD6A36A397}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTest", "XUnitTest\XUnitTest.csproj", "{42958F96-F126-4C32-9729-915A98B3E76A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTest", "XUnitTest\XUnitTest.csproj", "{42958F96-F126-4C32-9729-915A98B3E76A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiXin.MessageDbContext", "YiXin.MessageDbContext\YiXin.MessageDbContext.csproj", "{5F9043A9-AEC6-4D91-B69C-A58BDA674944}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,10 @@ Global
 		{42958F96-F126-4C32-9729-915A98B3E76A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42958F96-F126-4C32-9729-915A98B3E76A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42958F96-F126-4C32-9729-915A98B3E76A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F9043A9-AEC6-4D91-B69C-A58BDA674944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9043A9-AEC6-4D91-B69C-A58BDA674944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F9043A9-AEC6-4D91-B69C-A58BDA674944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F9043A9-AEC6-4D91-B69C-A58BDA674944}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

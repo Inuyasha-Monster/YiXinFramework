@@ -12,9 +12,10 @@ namespace YiXin.Core
             this.DevelopMessage = string.Empty;
         }
 
-        public ApiResult(bool successed = true)
+        public ApiResult(bool successed = true, string msg = "操作成功")
         {
             this.Successed = successed;
+            this.Message = msg;
         }
 
         public bool Successed { get; set; }
