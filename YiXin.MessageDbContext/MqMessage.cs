@@ -18,6 +18,6 @@ namespace YiXin.MessageDbContext
         /// <summary>
         /// 发送失败记录错误到消息Row中
         /// </summary>
-        public string SeedErrorMsg { get; set; }
+        public string PublishedErrorMsg { get; set; }
     }
 }

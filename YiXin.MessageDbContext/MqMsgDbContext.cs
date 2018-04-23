@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
+using YiXin.MessageDbContext.EntityMapConfig;
 
 namespace YiXin.MessageDbContext
 {
@@ -9,5 +10,13 @@ namespace YiXin.MessageDbContext
         {
 
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new MqMessageMapConfig());
+            base.OnModelCreating(modelBuilder);
+        }
+
+        public DbSet<MqMessage> MqMessages { get; set; }
     }
 }
